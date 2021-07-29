@@ -1,0 +1,32 @@
+{
+  "name": "reconfiguring-sheet-music-1",
+  "version": "1.0.0",
+  "description": "It is a module that reconstructs sheet music such as adding a musical key to a musicxml type sheet music or separating it into left, right, and both hands types.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "putKey": "node ./bin/musicalKey.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newdeal123/reconfiguring-sheet-music.git"
+  },
+  "keywords": [
+    "musicxml",
+    "musicalkey",
+    "musicsheet",
+    "piano",
+    "score"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newdeal123/reconfiguring-sheet-music/issues"
+  },
+  "homepage": "https://github.com/newdeal123/reconfiguring-sheet-music#readme",
+  "dependencies": {
+    "fs": "*",
+    "musicjson": "^0.2.1",
+    "readline": "^1.3.0"
+  }
+}
